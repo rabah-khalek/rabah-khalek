@@ -1,0 +1,22 @@
+name: Update App Downloads
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # every day at 6am UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install PyJWT cryptography requests --quiet
+      - name: Fetch downloads and update gist
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+          VENDOR_NUMBER: ${{ secrets.VENDOR_NUMBER }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: python3 .github/scripts/update_downloads.py
