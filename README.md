@@ -1,6 +1,6 @@
 **[Dilomatic](https://github.com/rabah-khalek/dilomatic)** · [dilomatic.com](https://dilomatic.com)
 
-![Since](https://img.shields.io/badge/Since-Mar%202026-lightgrey) ![Open Source](https://img.shields.io/badge/open--source-brightgreen) ![Dilemmas](https://img.shields.io/github/directory-file-count/rabah-khalek/dilomatic/data?type=file&label=Dilemmas)
+![Since](https://img.shields.io/badge/Since-Mar%202026-lightgrey) ![Open Source](https://img.shields.io/badge/open--source-brightgreen) ![Dilemmas](https://img.shields.io/github/directory-file-count/rabah-khalek/dilomatic/data?type=file&extension=json&label=Dilemmas)
 
 An open-source dataset documenting historical political dilemmas.
 
