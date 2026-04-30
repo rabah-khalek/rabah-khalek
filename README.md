@@ -26,15 +26,7 @@ Offline AI notes for Mac. AI that runs locally on your Mac. No internet required
 
 ---
 
-**[NNAD-Interface](https://github.com/rabah-khalek/NNAD-Interface)**
-
-![Since](https://img.shields.io/badge/Since-Apr%202019-lightgrey) ![Open Source](https://img.shields.io/badge/open--source-brightgreen) ![C++](https://img.shields.io/badge/C++-blue)
-
-Applications of NNAD to minimization problems using ceres-solver.
-
----
-
-**[NNAD](https://github.com/rabah-khalek/NNAD)** · [arXiv:2005.07039](https://arxiv.org/abs/2005.07039)
+**[NNAD](https://github.com/rabah-khalek/NNAD)** & **[NNAD-Interface](https://github.com/rabah-khalek/NNAD-Interface)** · [arXiv:2005.07039](https://arxiv.org/abs/2005.07039)
 
 ![Since](https://img.shields.io/badge/Since-Feb%202019-lightgrey) ![Open Source](https://img.shields.io/badge/open--source-brightgreen) ![C++](https://img.shields.io/badge/C++-blue)
 
