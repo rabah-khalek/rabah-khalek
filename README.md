@@ -4,10 +4,6 @@
 
 An open-source dataset documenting historical political dilemmas.
 
-- Open dataset licensed under **CC BY 4.0**
-- JSON records with citations, historiography, and neutral point-of-view writing
-- Contribute via [Google Form](https://forms.gle/pnT5Lho3zrvgvVB96) or [GitHub issue](https://github.com/rabah-khalek/dilomatic/issues/new?template=01-event-submission.yml)
-
 ---
 
 **[ZetaReps](https://apps.apple.com/us/app/zetareps/id6754805460)** · [zetareps.com](https://zetareps.com)
